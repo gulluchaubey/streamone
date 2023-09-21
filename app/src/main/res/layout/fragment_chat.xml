@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:background="@color/charleston_green"
+        android:paddingTop="@dimen/size_16"
+        android:paddingBottom="@dimen/size_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/liveChatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/live_chat"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_16"
+            android:layout_marginStart="@dimen/size_24"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/userCountTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/size_24"-->
+<!--            tools:text="80 Watching"-->
+<!--            android:drawablePadding="@dimen/size_8"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:textSize="@dimen/font_12"-->
+<!--            android:textColor="@color/white_t60"-->
+<!--            android:layout_marginTop="@dimen/size_6"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/liveChatTextView"-->
+<!--            app:drawableStartCompat="@drawable/bg_live_circle" />-->
+
+        <ImageView
+            android:id="@+id/closeImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/size_20"
+            app:srcCompat="@drawable/ic_ls_close"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/close" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_0"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:background="@color/smoky_black"
+        tools:listitem="@layout/list_item_user_chat"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/headerLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/messageTextInputLayout"
+        />
+
+    <ImageView
+        android:id="@+id/pullDownImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_chat_pull_down_arrow"
+        android:layout_marginBottom="@dimen/size_16"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/chatRecyclerView"
+        app:layout_constraintEnd_toEndOf="@id/chatRecyclerView"
+        app:layout_constraintBottom_toBottomOf="@id/chatRecyclerView"
+        android:contentDescription="@string/pull_down_chat" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/messageTextInputLayout"
+        style="@style/TextInputLayout"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_message"
+        app:endIconDrawable="@drawable/ic_ls_send"
+        app:endIconMode="custom"
+        app:endIconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="flagNoExtractUi"
+            android:hint="@string/type_message" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

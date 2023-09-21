@@ -1,0 +1,8 @@
+{
+  "username": "Learner",
+  "avatarUrl": "https://s3.ap-south-1.amazonaws.com/hydra.prod.learnapp.com/5c06b5c7-9384-405c-bc38-69ff9e6a11ac/7d41fd98-72c4-40ba-ae3c-5de6fe7e3984.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAW2NTB32UFPTKZXHJ%2F20221102%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20221102T102834Z&X-Amz-Expires=604800&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRjBEAiB4sdAiwTmz3sc%2FQwAX%2BZnleTOidz0Z0pAewb8JuSEPDgIgeEjI22CegbLlof%2FA0P%2BMlNhRvgKqZNfD003jQNoZmOYqhgMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw0NjkwNjM4MTg5MjAiDGzHdCBKQrU5cXLE8CraArQdDdhGU%2B3t0DdwpN9XzXaZOaviYaSlCzANamH%2FcpeYu3JwdOGeqG%2FAPb5o7debhHm2eqK1mHiGYIl8swLLZMLXrYeTLlZKZGISMaphE2W6mTYS%2FTa5wGofvPww0QgU6UGp3%2Fuo1PsmrpobiMawL5eaPoIPDe6nQFHvdZHr3rCE1BJuIHC7EkjXmDXVr5C6uGzdgccmNSGG2bCNGVQFrN67xZCJXPkb2yOOHBXgHQJ9srBSS%2BuM5myjzDih0KHa9MNqUf43J2IPZ%2FHDSywC%2FO%2BhtGZwVrSmlmTnMVqC67Isxr8yt%2B6%2B%2BLWKJOzM%2FfzrasuBzWGyae7Vfr%2FLAeljGI1XgGOTa2w9ERDFmRQRoJCuQ1WJaq%2BhqNQflZBZOEV1M0KAEWsFUBMY6tTWApGra0xcp5GmyoA3hFeTtXZnXT2vhMtRVde3GMiFMUIR%2BOKYX6GC4DBhcB9oKFgwvYiJmwY6nwGFUV%2FBC19KMzEcqx%2FiFwZrGQa%2FqDwJK5MLWPCUvxzRnFU6sIxfbEt8%2FivutPImJht4sNhIX7HEKYHBUFLwYZxmmUffxhlJrnj8H3YXG3c1n7TlxSkFYb7H58WbUGAm4naLb%2F4pAex6eCXP3RLzHK3nfqF0cX0tmChuI9D5qofDIyJSsS34cSg2okzr8zyF6dSoJMI3SlCdS3MrTTVgvNM%3D&X-Amz-Signature=4611dcd5f7ba75fc2feabb26d855891fd1f229b41aca8c15899f32e3f89f2110&X-Amz-SignedHeaders=host&x-id=GetObject",
+  "workshopId": "eaceade9-7346-46c7-8b3b-93825b7f9f74",
+  "accessToken": "",
+  "apiKey": "",
+  "apiUrl": "https://catalog.dev.learnapp.co"
+}

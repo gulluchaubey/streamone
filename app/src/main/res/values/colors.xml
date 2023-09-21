@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="philippine_gray">#8A8A8A</color>
+    <color name="raisin_black">#262626</color>
+    <color name="coral_red">#FF4141</color>
+    <color name="charleston_green">#292929</color>
+    <color name="white_t60">#99FFFFFF</color>
+    <color name="white_t70">#B3FFFFFF</color>
+    <color name="smoky_black">#0E0E0E</color>
+    <color name="picton_blue">#21A1F6</color>
+    <color name="deep_chestnut">#BD4848</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="tile_background">#37000000</color>
+</resources>

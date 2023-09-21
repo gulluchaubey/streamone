@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">livestream</string>
+
+    <string name="live_user_count">Live User Count</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="close">Close</string>
+    <string name="type_message">Type your message</string>
+    <string name="send">Send</string>
+    <string name="profile_photo">User Profile Photo</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="back_online">Back Online</string>
+    <string name="workshop_joined">Workshop Joined</string>
+    <string name="workshop_start_soon">The workshop will start soon. Stay Tuned!</string>
+    <string name="invalid_user_info">Invalid User Info</string>
+    <string name="pull_down_chat">Pull down chat</string>
+    <string name="connection_status">Internet Connection Status</string>
+</resources>
